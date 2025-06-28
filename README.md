@@ -42,12 +42,17 @@ The array is allocated as a contiguous block ft_initialize.c:28 and each philoso
     Death Monitoring: Real-time detection of philosopher starvation.
 
     Meal Completion Tracking: Automatic termination when all philosophers finish eating.
+    
+## Tester
+
+I've also made a tester, which can just be download and ran via Makefile with make tester.
+
 
 ## Build & Usage
 
-make                    # Build the project
-./philo 5 800 200 200   # 5 philosophers, 800ms death time, 200ms eat/sleep
-./philo 5 800 200 200 3 # Same setup, stop after 3 meals each
+make                    # Build the project   
+./philo 5 800 200 200   # 5 philosophers, 800ms death time, 200ms eat/sleep   
+./philo 5 800 200 200 3 # Same setup, stop after 3 meals each   
 
 ## Core Components
 
